@@ -1,5 +1,6 @@
 def my_each(collection) # put argument(s) 
   i = 0
+  while i < collection.length
 end
 
 collection = [1, 2, 3, 4]
@@ -10,7 +11,7 @@ end
 def hello_t(array)
 
  
-  while i < array.length
+  
     yield(array[i])
     i = i + 1
   end
