@@ -12,7 +12,6 @@ my_each(collection) do |i|
   puts i
 end
 
-def hello_t(array)
 
  
   
